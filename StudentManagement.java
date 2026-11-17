@@ -8,6 +8,16 @@ public class StudentManagement {
         double mark3 = 85;
 
         double average = (mark1 + mark2 + mark3) / 3;
+        if (average >= 80) {
+            System.out.println("Performance: Excellent");
+        }
+        else if (average >= 60) {
+            System.out.println("Performance: Good");
+        }
+        else {
+            System.out.println("Performance: Needs Improvement");
+        }
+
         System.out.println("Average Mark: " + average);
 
         System.out.println("Student Management System");
